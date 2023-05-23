@@ -9,7 +9,7 @@ headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 response = requests.get('https://www.alta.ru/currency/', headers=headers)
 
 print(response.status_code)
-# print(type(response))
+ print(type(response))
 html = response.text
 soup = BeautifulSoup(html, 'html.parser')
 
