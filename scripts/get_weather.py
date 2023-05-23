@@ -45,5 +45,6 @@ def get_weather_spb() -> list:
     # возвращаем из функции список
     return weather_day_list
 
-for item in get_weather_spb():
-    print(item)
+if __name__ == '__main__':
+    for item in get_weather_spb().items():
+        print(item)

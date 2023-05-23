@@ -2,14 +2,14 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.filters import Command
 from aiogram.types import Message
 from config import BOT_TOKEN
-from public_api.get_weather import get_weather_spb
-from public_api.get_vacancy_python import get_random_vacancy
-from public_api.get_course import get_course
+from scripts.get_weather import get_weather_spb
+from scripts.get_vacancy_python import get_random_vacancy
+from scripts.get_exhange_rates import  import course
 
 # токен вашего бота, полученный у @BotFather
 API_TOKEN: str = BOT_TOKEN
 
-# Создаем объекты бота и диспетчера
+# Создаем объекты бота и диспетчера//////////
 bot: Bot = Bot(token=API_TOKEN)
 dp: Dispatcher = Dispatcher()
 
