@@ -40,9 +40,8 @@ def course():
             validated_rows.append(row_dict)
 
 if __name__ == '__main__':
-    for item in course():
-        print(item)
-
+    get_course()
+     
 #for item in validated_rows:
    # print(item)
 

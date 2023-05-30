@@ -56,5 +56,4 @@ def get_random_vacancy():
      return list_of_data_vacancy
 
 if __name__ == '__main__':
-    for item in get_random_vacancy().items():
-        print(item)
+    print(get_random_vacancy())
